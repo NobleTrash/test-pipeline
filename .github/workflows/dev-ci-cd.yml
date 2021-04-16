@@ -8,8 +8,8 @@ on:
 
 jobs:
   build-test:
-    runs-on : runs-on: self-hosted
-    steps:
+    runs-on : self-hosted
+    steps   :
 # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: pwd
