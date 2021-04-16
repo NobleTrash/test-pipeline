@@ -17,8 +17,9 @@ jobs:
 
       - name: cd
         run : |
-          cd /var/www
-          git pull
+          cd /var/www/temp
+          git clone https://github.com/NobleTrash/test-pipeline.git
+
 
       
 
