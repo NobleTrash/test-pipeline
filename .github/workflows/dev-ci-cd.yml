@@ -16,9 +16,9 @@ jobs:
         run : pwd
 
       - name: cd
-      - uses: actions/checkout@v2
         run : |
           cd /var/www
+          git pull
 
       
 
