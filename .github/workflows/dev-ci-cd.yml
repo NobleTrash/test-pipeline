@@ -16,7 +16,8 @@ jobs:
         run : pwd
 
       - name: cd
-        run : cd /var/www
+        run : |
+          cd /var/www
+          actions/checkout@v2
       
-      - name: pwd  
-        run : pwd
+
